@@ -55,6 +55,7 @@ class Node:
                 self.right.postOrder()
             print self.data
 
+
 class Tree:
     def __init__(self):
         self.root=None
