@@ -1,16 +1,3 @@
-
-def count_cut(rec):
-    x=len(rec)
-    c=0
-    dif =rec[0]
-    for i in range(x):
-        if rec[i]>0:
-            rec[i]=rec[i]-dif
-        else:
-            c+=1
-    print x-c
-    return c
-
 n=int(raw_input().strip())
 arr=map(int,raw_input().strip().split())
 arr=sorted(arr)
